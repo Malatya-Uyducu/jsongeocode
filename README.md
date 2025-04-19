@@ -34,7 +34,7 @@ A total of **95 countries** are included.
     "accuracy": "3"
   }
 ]
-
+```
 
 
 This structure includes information such as the `country_code`, `postal_code`, `place_name`, administrative divisions (`admin_name1`, `admin_name2`, `admin_name3`), and geographical coordinates (`latitude`, `longitude`).
