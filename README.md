@@ -36,12 +36,3 @@ A total of **95 countries** are included.
 ]
 
 
-🔍 How to Use (Web Example)
-You can load country data in your web app using fetch():
-
-fetch('./data/TR.json')
-  .then(res => res.json())
-  .then(data => {
-    const result = data.find(entry => entry.postal_code === '02700');
-    console.log(result.place_name); // Output: Çobanpinari
-  });
